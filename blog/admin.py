@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.contrib import admin
 
 from models import *
@@ -11,3 +12,4 @@ admin.site.register(MaterialMarkBlock)
 admin.site.register(MaterialMark)
 admin.site.register(Author)
 admin.site.register(Material)
+admin.site.register(MaterialMarkData)
